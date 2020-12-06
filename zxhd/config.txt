@@ -1,0 +1,22 @@
+arm_freq=900
+core_freq=450
+temp_limit=75
+boot_delay=0
+scaling_kernel=8
+# +----------+
+# | Overscan |
+# +----------+
+# Default (no option set): overscan disabled, a small black border may be visible
+# Enabling overscan to remove the small black border: disable_overscan=1
+#disable_overscan=1
+# +---------------------------+
+# | Digital Screen Stretching |
+# +---------------------------+
+# Default (no option set): streching off
+# Enable stretching: 'framebuffer_aspect=-1'
+# Combining 'framebuffer_aspect=-1' with 'disable_overscan=1' may cause pixel-columns to have slightly different widths
+#framebuffer_aspect=-1
+
+
+hdmi_force_hotplug=1
+hdmi_group=2
