@@ -1,0 +1,21 @@
+# +--------------------------------+
+# | ZX-HD Interlaced Mode Settings |
+# +--------------------------------+
+# Default (no option set): both options are off, which makes interlaced mode enable dynamically
+# Interlaced mode always off:
+#interlaced=0 
+# Interlaced mode always on, which gives a sharper picture but movement is 25fps:
+#interlaced=1 
+# +------------------------+
+# | ZX-HD Palette Settings |
+# +------------------------+
+# Default (no option set): palette=rgb
+# 'palette=rgb' this will give the highest dynamic range
+# 'palette=composite' results in calibrated colours to match those from composite video output of the ZX Spectrum
+# 'palette=[series of numbers] for custom palette entries
+#  The values are integers between 0 and 255, separated by commas.
+#  The order is: black,blue,red,purple,green,cyan,yellow,white,bright black,bright blue,bright red,bright purple,bright green,bright cyan,bright yellow,bright white
+#  The formula to get the index values from RGB color: Index(0...255)=4*Red(0...7)+32*Green(0...7)+Blue(0...3)
+# Example:
+#palette=0,2,16,18,128,130,144,146,0,3,28,31,224,227,252,255
+#palette=rgb
