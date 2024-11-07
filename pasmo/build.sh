@@ -1,6 +1,6 @@
 SOURCE_FILE="$1"
 
-PASMO_PATH="/Users/vokamisair/speccy/pasmo/bin/pasmo"
+PASMO_PATH="/Users/air/speccy/pasmo/bin/pasmo"
 
 rm -f "${SOURCE_FILE}".tap
 
